@@ -1,0 +1,247 @@
+<div className='b-background'>
+        <ol>
+          <h3>
+            <li 
+            style={{
+              textAlign:"center",
+              fontSize:"30px",
+              color:"black"
+            }}
+            >
+              What we provide?
+            </li>
+          </h3>
+        </ol>
+        <ul>
+          <div className='time'>
+          <img src={anmiwatch} width="25%" alt='watch'    className='watch'/>
+          <div className='time-color'>
+          
+          <li>
+          <li className='info-time' >Time.</li>
+            The Time is most valuable thing, A man can spend.
+            <p className='info-time-para'>Time is the most valuable thing in life. It has no beginning and no end. It can neither be created nor be destroyed. Time is the only dimension in which we all live our lives, and it affects everything that we do, from a flower's growing cycle to the destruction of empires.</p>
+          </li>
+          </div>
+          </div>
+          <div className='white-bord'>
+          <div className='time-color'>
+          <li>
+            <li className='info-time' >Whitebord.</li>
+          Whiteboards are not just for writing!<p className='info-time-para' >Whiteboards allow students to showcase their thinking, share ideas, brainstorm and best of all it's not permanent! Students realize the power of being able to erase and are not as intimidated to share and learn togethe</p>
+         <p className='info-time-para'>Using interactive whiteboards for business allows employees to visually ideate and explain complex concepts, all of which leads to better information retention and innovation. In addition, employees can look over, edit, and create documents and presentations in real-time</p>
+          </li>
+          </div>
+          <img src={"https://help.explaineverything.com/hc/article_attachments/360011928040/GIF1_mniejsze_mniejsze.2020-05-12_12_22_38.gif"} width="25%" alt='whitebord' 
+          style={{
+            float:"right"
+          }}
+          className='whitebord'/>
+          </div>
+          <div className='screen'>
+          <img src={screen} width="25%" alt='Screen Sharing' 
+          style={{
+            float:"left"
+          }}
+          className='scr'/>
+          <div className='time-color'>
+          <li>
+            <li className='info-time' > Screen Sharing </li>
+          Screen sharing involves sharing access to your computer screen.
+          <p className='info-time-para'>Other users are then able to see your screen and watch your activity in real-time – ideal for scenarios such as online presentations or meetings. Screen sharing spares you the time and effort of having to send files, documents, or videos.</p>
+          <p className='info-time-para'>Screen sharing during an online meeting allows you to bring everyone together to generate new ideas and even collaborate on documents in real-time. Some software tools even provide a digital whiteboard to scribble on or ways to annotate a document as you're all looking at it</p>
+          </li>
+          </div>
+          </div>
+          <div className='record'>
+          <div className='time-color'>
+          <li>
+            <li className='info-time' > Screen Record </li>
+          Screen recording allows you to capture what is happening on your screen for future playback.
+          <p className='info-time-para'>Whether you're watching a presentation or webinar that you might want to view again or you're putting together a video game tutorial, capturing what happens on your screen can have a number of important uses.</p>
+          </li>
+          </div>
+          <img src={record} width="25%" alt='Screen Recording' 
+          style={{
+            float:"right"
+          }}
+          className='rec'/>
+          </div>
+          <div className='question'>
+          <img src={question} width="25%" alt='Ask Question' 
+          style={{
+            float:"left"
+          }}
+          className='ask'/>
+          <div className='time-color'>
+          <li>
+          <li className='info-time' > Question/Answere </li>
+          What is the best way is to start a conversation? Ask the other person a question. We learn by asking questions.
+          </li>
+          </div>
+          </div>
+          <div className='file'>
+          <div className='time-color'>
+          <li><li className='info-time' > File Sharing </li>
+          File sharing allows several people to use the same file data.
+          </li>
+          </div>
+          <img src={file} width="25%" alt='Ask Question' 
+          style={{
+            float:"right"
+          }}
+          className='files'/>
+          </div>
+            <div className='end'>
+            <img src={end} width="25%" alt='End' 
+            style={{
+              float:"left"
+            }}
+            className='ends'/>
+            <div className='time-color'>
+            <li><li className='info-time' >End</li>
+            The work is stared finishing plays important role.
+            </li>
+            </div>
+            </div>
+        </ul>
+      </div>
+      
+
+
+.time{
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    list-style-type: none;
+}
+
+.watch{
+    border-radius: 50%;
+    width: 30%;
+    padding-right: 25px;
+    border-radius: 25%;
+}
+.watch:hover{
+    transition: 2s;
+    width: 30%;
+    border-radius: 25%;
+}
+.white-bord{
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-decoration: none;
+    justify-content: flex-end;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.whitebord{
+    border-radius: 50%;
+    width: 30%;
+    padding-right: 25px;
+    border-radius: 25%
+}
+.whitebord:hover{
+    transition: 0.8s;
+    border-radius: 25%;
+}
+.screen{
+    display: flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    justify-content: flex-start;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.scr{
+    border-radius: 50%;
+    width: 30%;
+    padding-right: 25px;
+    border-radius: 25%;
+    
+}
+.scr:hover{
+    transition: 0.8s;
+    border-radius: 25%;
+}
+.record{
+    display: flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    justify-content: flex-start;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.rec{
+    border-radius: 50%;
+    width: 30%;
+    padding-right: 25px;
+    border-radius: 25%;
+    
+}
+.rec:hover{
+    transition: 0.8s;
+    border-radius: 25%;
+}
+.question{
+    display: flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    justify-content: flex-start;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ask{
+    border-radius: 50%;
+    padding-right: 25px;
+    
+}
+.ask:hover{
+    transition: 0.8s;
+    border-radius: 25%;
+}
+.file{
+    display: flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    justify-content: flex-start;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.files{
+    border-radius: 50%;
+    padding-right: 25px;
+    
+}
+.files:hover{
+    transition: 0.8s;
+    border-radius: 25%;
+}
+.end{
+    display: flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    justify-content: flex-start;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ends{
+    border-radius: 50%;
+    padding-right: 25px;
+    
+}
+.ends:hover{
+    transition: 0.8s;
+    border-radius: 25%;
+}

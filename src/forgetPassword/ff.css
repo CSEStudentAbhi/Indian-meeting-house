@@ -1,0 +1,102 @@
+.email_for_password {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub_body {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.forget_body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_for_Password {
+    margin-top: 25px;
+}
+
+.card1 {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    background-color: #dfdfdf;
+    padding: 25px;
+    box-shadow: 2px 5px 10px black;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.card2 {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    background-color: #b6b6b6;
+    padding: 25px;
+    box-shadow: 2px 5px 10px black;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.input_password {
+    display: flex;
+    width: 420px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.input_password:focus {
+    outline: none;
+    border: 2px solid blue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.email_for_password {
+    padding: 5px;
+}
+
+.reset {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: x-large;
+    transition: 0.5s;
+}
+
+.reset:hover {
+    background-color: rgb(0, 0, 83);
+    transition: 0.5s;
+}
+
+.logo_password {
+    border-radius: 80px;
+    margin-left: 38%;
+}
+
+.meeting_house_Password {
+    text-align: center;
+}
+
+.popup_password {
+    float: left;
+    transform: translateY(-180px);
+    color: red;
+    background-color: rgba(0, 128, 0, 0.377);
+    position: absolute;
+    text-align: center;
+    font-size: large;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}

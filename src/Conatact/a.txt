@@ -1,0 +1,4 @@
+<a href='https://www.facebook.com/profile.php?id=100090851060915' target='_blank' rel="noreferrer" className='main-links'  ><img src={facebook} alt='Facebook' className='main-logos' /> </a>
+                      <a href='https://www.instagram.com/indain.meeting.house/' target='_blank' rel="noreferrer" className='main-links'  ><img src={instagram} alt='Instagram' className='main-logos' />  </a>
+                      <a href='https://twitter.com/indian_meeting' target='_blank' rel="noreferrer" className='main-links'  ><img src={twiter} alt='Twitter' className='main-logos' />  </a>
+                      <a href='https://www.linkedin.com/in/meeting-house-abba62269/' target='_blank' rel="noreferrer" className='main-links'  ><img src={linkedin} alt='Linkedin' className='main-logos' />  </a>

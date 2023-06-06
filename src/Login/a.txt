@@ -1,0 +1,25 @@
+
+<div className='background-body'>
+    <div className='login-body' >
+      <div  >
+        <form>
+          <div className='login-form'>
+            <div className='login-username'>
+              <div className='login-user'>
+              <div class="form-floating mb-3">
+                 <input type="email" className="form-control input-may label-floa" id="floatingInput t" placeholder="name@example.com"/>
+                  <label for="floatingInput ">User Name</label>
+                </div> 
+              </div>
+              <div className='login-pwd'>
+              <div class="form-floating mb-8">
+                <input type="password" className="form-control input-may" id="floatingInput" placeholder="password"/>
+                <label for="floatingInput label-float">Password</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>

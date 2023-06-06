@@ -1,0 +1,236 @@
+.image_slide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 3%;
+    background-color: #ffd3ff;
+
+}
+.text_of_display{
+    margin-top: 4%;
+    margin-left: 3%;
+    width: 45%;
+    text-align: left;
+}
+.Indian_Meeting_House{
+    font-size: 60px;
+    margin-bottom: 5px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Introducing{
+    font-size: 30px;
+}
+
+.typeing{
+    text-align: center;
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.marquee{
+    font-size: 25px;
+    font-family: Arial Black;
+    margin-top: 70PX;
+}
+.images{
+    width: 99%;
+    padding-left: 5px;
+    
+}
+.image1{
+    border-radius: 100px;
+    border: 1px dotted black;
+}
+
+.footer{
+    display: flex;
+    background-color: rgb(44, 44, 44);
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    opacity: 80% ;
+    padding: 25px;
+}
+.footer:hover{
+    transition: 0.9s;
+    opacity: 100% ;
+}
+
+.ft-name{
+    font-size: large;
+    font-weight: bolder;
+}
+.logos{
+    display: block;
+    margin-right: 80px;
+    align-items: center;
+}
+.fb-logo{
+    opacity: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size:20px;
+
+}
+
+.insta-logo{
+    opacity: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size:20px;
+
+}
+
+.tw-logo{
+    opacity: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size:20px;
+}
+.in-logo{
+    opacity: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size:20px;
+
+}
+
+.ft-name{
+    font-size: 24px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.ft-imgname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fb-para{
+    display: flex;
+    opacity: 40%;
+    filter: grayscale(100%);
+    align-items: center;
+    justify-content: flex-start;
+}
+.fb-para:hover{
+    filter: grayscale(0%);
+    transition: 1s;
+    opacity: 100%;
+}
+.sp-fb{
+    padding-left: px;
+}
+.ft-link{
+    text-decoration: none;
+    color: white;
+}
+.info-time{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-family: Hobo Std;
+}
+.info-time-para{
+    font-size: 20px;
+}
+.time-color{
+    padding: 50px;
+    background-image: linear-gradient(rgb(29, 2, 182),black );
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.time-color:hover{
+    transition: 5s;
+    background-image: linear-gradient(rgb(65, 65, 65),black );
+    opacity: 100%;
+    color: white;
+    padding: 50px;
+    border-radius: 25px;
+}
+.container{
+    display: flex;
+    min-width: 100%;
+
+    background-color: #59aefd3d;
+}
+.slide1{
+    pointer-events: none;
+    margin-left: 25px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    /* background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 10px;
+    transition: 1s;
+}
+.slide1:hover{
+    transition: 0.8s;
+    /* background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 5%, #6bb8ff 100%); */
+
+}
+.Indian_Meeting{
+    font-size: 80px;
+}
+.Discover_More_From{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time_Text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cooper Black;
+}
+.Abnimated_Watch{
+    width: 50%;
+}
+.horizontal_for_slide{
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 5px;
+    background: rgb(38, 0, 255);
+    margin-bottom: 5px;
+}
+.antimated_gifs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider_text{
+    margin: 15px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial ;
+}
+.sub_para{
+    font-size: 14px;
+    color: rgb(65, 64, 64,1);
+    font-family: Arial ;
+    font-weight: lighter;
+}
+.sub_para:hover{
+    transition: 0.5s;
+    color: black;
+}

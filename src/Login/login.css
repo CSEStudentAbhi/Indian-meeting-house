@@ -1,0 +1,217 @@
+.background-images{
+    background-image: url("../images/laptop-og-image.png");
+    background-size:cover;
+    height: 92vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  
+  /* hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.secondary-background{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    height: 92vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  
+  /* hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+}
+.thried-backgroung{
+    background: transparent;
+    width: 50%;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 45px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    width: 350px;
+    margin-bottom: 21.5%;
+    background-color: #dfdfdf;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+.forgeten-password{
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+}
+.user-name-input{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.user-pasword-input{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.input-emial{
+    position: absolute;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 280px;
+}
+.input-emial:focus{
+    outline: none;
+    border: 2px solid rgb(25, 0, 255);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.floting-lable{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    pointer-events: none;
+    transform: translateY(-10px);
+    overflow: hidden;
+}
+.input-emial:focus + .floting-lable,.input-emial:not(:placeholder-shown)+.floting-lable{
+    transition: 0.5s;
+    outline: none;
+    font-size: 15px;
+    transform: translateY(-25px);
+    color: blue;
+
+}
+.input-password{
+    display: flex;
+    position: absolute;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 280px;
+    
+}
+.input-password:focus{
+    outline: none;
+    border: 2px solid rgb(38, 0, 255);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.floting-lable-password{
+    position: absolute;
+    display: flex;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transform: translateY(-10px);
+}
+.input-password:focus + .floting-lable-password,.input-password:not(:placeholder-shown)+.floting-lable-password{
+    transition: 0.5s;
+    outline: none;
+    font-size: 15px;
+    transform: translateY(-25px);
+    color: blue;
+
+}
+.login-via{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.loginwitgoogle{
+    padding-bottom: 18px;
+}
+.fb-logo{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.google-logo{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.button-for-signin{
+    background-color: #0011ff;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+}
+.button-for-signin:hover{
+    transition: 0.9s;
+    background-color: #0044ff;
+}
+.create-new-account{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: #00850b;
+    font-size: large;
+    border-radius: 10px;
+}
+.create-new-account:hover{
+    transition: 0.5s;
+    background-color: #00d312
+}
+.horizontal-line{
+    border: 0.2px solid #000000;
+    color: #000000;
+}
+.userInfo{
+    position: absolute;
+    text-align: center;
+    font-size: 28px;
+    color:  rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-left: 50%;
+    margin-top: 10px;
+    
+}
+.loding{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bottonLoding{
+    color: #000000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: absolute;
+  }
+  .bottonLoding:after{
+    content: '';
+    height: 4px;
+    width:0%;
+    display: block;
+    background: #ff9900;
+    animation: 3s lineGrow linear infinite;
+  }
+  
+  @keyframes lineGrow {to{width: 100%;}}

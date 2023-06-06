@@ -1,0 +1,197 @@
+.body_for_background{
+    background-image: url("../images/signup.png");
+    background-size:cover;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.main_flex_for_SignUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    border: 1px solid black;
+    width: 450px;
+    border-radius: 30px;
+    margin-right: 25px;
+    margin-bottom: 21px;
+    margin-top: 30px;
+    margin-left: 15px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding-top: 50px;
+    padding-bottom: 15px;
+    background-color: #f3f3f3;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+    
+}
+.first_and_last{
+    display: flex;
+}
+.password_for_registraction{
+    display: flex;
+}
+.dob_Gender{
+    display: flex;
+}
+.first_Name{
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+}
+.first_name:focus {
+    outline: none;
+    border: 2px solid rgb(0, 89, 172);
+    opacity: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: -10px;
+}
+.first_name:focus::placeholder {
+    color: transparent;
+}
+.first_name{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+}
+.last_Name{
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+}
+.temp_pwd{
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+}
+.con_pwd{
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+}
+.date_of_birth{
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.Gender{
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+}
+.email-id{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 86%;
+}
+.gmail-id{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+}
+.gmail-id:focus{
+    outline: none;
+    border: 2px solid rgb(0, 89, 172);
+    opacity: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: -10px;
+}
+.date_of_birth{
+    margin-right: 18px;
+}
+.input_for_date{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+}
+.input_for_date:focus{
+    outline: none;
+    border: 2px solid rgb(0, 89, 172);
+    opacity: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: -10px;
+}
+.input_for_gender:focus{
+    outline: none;
+    border: 2px solid rgb(0, 89, 172);
+    opacity: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: -10px;
+}
+.input_for_gender{
+    width: 220px;
+    padding-bottom: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+}
+.button_for_registraction{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 220px;
+    font-size: large;
+    padding: 5px;
+    margin-top: 15px;
+}
+.button_for_registraction:hover{
+    background-color: navy;
+    transition: 0.5s;
+}
+.horizontal_line{
+    color: black;
+    width: 100%;
+    height: 2px;
+    border: 1px solid black;
+}
+.names_for_all{
+    margin-top: 15px;
+}
+.options{
+    background: none;
+}
+.signup_via{
+    cursor: pointer;
+}
+.valid{
+    color: red;
+    font-size: 14px;
+}
+.openEyeone{
+    display: flex;
+    justify-content: flex-end;
+}
+.openEye{
+    position: absolute;
+    cursor: pointer;
+}
+.popupmesssage{
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    color:  rgb(255, 81, 0);
+    background-color: rgba(255, 255, 255, 0.616);
+    margin-left: 50%;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.616);
+}
