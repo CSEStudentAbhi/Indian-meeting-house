@@ -11,7 +11,7 @@ function Meeting() {
     var navigate = useNavigate()
 
     const scehedulemeetings = () => {
-        window.location.replace('http://localhost:9000/create',{state:{id:id}});
+        window.location.replace('https://indianmeetinghosemeeting.netlify.app/create',{state:{id:id}});
     }
   
     const [roomNo, setRoomNo] = useState()
