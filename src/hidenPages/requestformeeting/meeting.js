@@ -1,14 +1,13 @@
 import React, {  useState } from 'react'
 import './meeting.css'
 import meeting from '../hidenImgaes/online-meeting-scaled.jpg'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 function Meeting() {
 
     var location = useLocation()
     const id = (location.state.id)
     console.log(id)
 
-    var navigate = useNavigate()
 
     const scehedulemeetings = () => {
         window.location.replace('https://indianmeetinghosemeeting.netlify.app/create',{state:{id:id}});
