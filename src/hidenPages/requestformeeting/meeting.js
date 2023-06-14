@@ -1,4 +1,4 @@
-import React, {  useState } from 'react'
+import React, { useState } from 'react'
 import './meeting.css'
 import meeting from '../hidenImgaes/online-meeting-scaled.jpg'
 import { useLocation } from 'react-router-dom'
@@ -7,15 +7,18 @@ function Meeting() {
     var location = useLocation()
     const id = (location.state.id)
     console.log(id)
-
-
+    const [card, setCard] = useState(false)
     const scehedulemeetings = () => {
-        window.location.replace('https://indianmeetinghosemeeting.netlify.app/create',{state:{id:id}});
+        setCard(!card)
+        // window.location.replace('https://indianmeetinghosemeeting.netlify.app/create',{state:{id:id}});
     }
-  
+    const startmeeting = ()=>{
+        window.location.replace('https://indianmeetinghosemeeting.netlify.app/create',{state:{id:id}})
+    }
+
     const [roomNo, setRoomNo] = useState()
 
-    const jointomeeting=()=>{
+    const jointomeeting = () => {
         window.location.replace(roomNo);
     }
 
@@ -35,11 +38,25 @@ function Meeting() {
                         <input type='text' value={roomNo} onChange={(e) => { setRoomNo(e.target.value) }} className='entercodetojoin' placeholder='Enter link or Code' />
                         <span className='Join_button' onClick={jointomeeting} >Join</span>
                     </div>
+                    <div className='room_Entry'>
+                        {
+                            card ? <div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Schedule Meeting</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Time must be more than 30 Min</h6>
+                                        <input type='time' />
+                                        <button type="button" class="btn btn-outline-primary" onClick={startmeeting}>Primary</button>
+                                    </div>
+                                </div>
+                            </div> : <div></div>
+                        }
+                    </div>
                 </div>
                 <div className='meetingDisplay2'>
                     <img src={meeting} width={"70%"} className='secondary_image_for_host' alt='Meeting' />
                 </div>
-           </div>
+            </div>
 
         </div>
     )
