@@ -18,6 +18,7 @@ function Login() {
   const [mainloding, setMainloding] = useState()
 
   const responseGoogle_success = async (response) => {
+    setMainloding(loding)
     const google_info = {
       Email: response.profileObj.email,
     }
