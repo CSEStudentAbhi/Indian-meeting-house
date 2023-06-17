@@ -55,7 +55,7 @@ function Meeting() {
                                         <h5 class="card-title">Schedule Time</h5>
                                         <h6 class="card-subtitle mb-2 text-body-secondary">Schedule time more than 30 Min</h6>
                                         <p class='card-text'> Format is,  hh:mm </p>
-                                        <input type='time' style={{ marginLeft:'32%', marginTop:'%'}} value={time} onChange={(e)=>setTime(e.target.value)} /><br></br><br></br>
+                                        <input type="time" style={{ marginLeft:'32%', marginTop:'%'}} value={time} onChange={(e)=>setTime(e.target.value)} /><br></br><br></br>
                                         <button type="button" class="btn btn-outline-primary" style={{ marginLeft:'35px'}} onClick={startmeeting}>Start New Meeting</button>
                                     </div>
                                 </div>
