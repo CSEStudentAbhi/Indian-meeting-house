@@ -233,10 +233,7 @@ function Home() {
               </div>
               <div>
                 <h3>About us</h3>
-                <h5>Abhishek Ambi</h5>
-                <h5>Shoaib Mamdapur</h5>
-                <h5>Jitendra Choudhari</h5>
-                <h5>Rachit Kalal</h5>
+                <h1>Abhishek Ambi</h1>
               </div>
               
             </div>
